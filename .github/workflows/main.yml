@@ -14,5 +14,5 @@ jobs:
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           src_repo: DragonStorm25/hook-game
-          dst_repo: DragonStorm25/hook-game-releases
+          dest_repo: DragonStorm25/hook-game-releases
           copy_assets: true
