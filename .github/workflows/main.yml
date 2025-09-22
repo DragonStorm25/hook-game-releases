@@ -12,7 +12,7 @@ jobs:
       - name: Run action
         uses: andrewthetechie/gha-clone-releases@v1.7.0
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           src_repo: DragonStorm25/hook-game
           dest_repo: DragonStorm25/hook-game-releases
           copy_assets: true
